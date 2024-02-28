@@ -1,22 +1,70 @@
-.rock{
-    transform:rotate(-50deg);
-    /* border: 1px solid black; */
-    height: 75%;
-    margin-left: 100px;
-    margin-top: 35px;
+body{
+    background-color: turquoise;
 }
-.paper{
-    transform:rotate(128deg);
-    /* border: 1px solid black; */
-    height: 75%;
-    margin-top: 35px;
-}
-.scissors{
-    transform:rotate(43deg);
-    /* border: 1px solid black; */
-    height: 75%;
-    margin-top: 35px;
-}
+
+h1{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
 .container{
     display: flex;
+    justify-content: center;
+    background-color: turquoise;    
+}
+.rock{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 125px;
+    
+}
+.paper{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 125px;
+    margin-left: 60px;
+    
+}
+.scissors{
+    display: flex;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    border-radius: 125px;
+    margin-left: 60px;
+
+    
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.scoreUser{
+    border: 2px solid black;
+    font-size: 20px;
+    
+}
+.scoreComp{
+    border: 2px solid black;
+    font-size: 20px;
 }
