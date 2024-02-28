@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 body{
     background-color: turquoise;
 }
@@ -13,24 +19,25 @@ h1{
 
 
 .container{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     background-color: turquoise;    
 }
-.rock{
+#rock{
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    border: 3px;
     width: 250px;
     height: 250px;
     overflow: hidden;
     border-radius: 125px;
     
 }
-.paper{
+#paper{
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    /* border: 3px solid; */
     width: 250px;
     height: 250px;
     overflow: hidden;
@@ -38,20 +45,22 @@ h1{
     margin-left: 60px;
     
 }
-.scissors{
-    display: flex;
-    border: 2px solid black;
+#scissors{   
+ /* border: 3px solid; */
+    display: flex;    
     width: 250px;
     height: 250px;
     overflow: hidden;
     align-items: center;
     justify-content: center;
     border-radius: 125px;
-    margin-left: 60px;
-
+    margin-left: 60px;   
     
 }
 
+.obb:hover:hover{   
+    cursor: pointer;
+       }
 
 .content{
     display: flex;
@@ -60,11 +69,55 @@ h1{
     padding: 50px;
 }
 .scoreUser{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     font-size: 20px;
+    font-weight: 600;
+    font-size: 35px;
     
 }
 .scoreComp{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     font-size: 20px;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 35px;
 }
+p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    height: 40px;
+    /* width: 200px; */
+    padding: 15px;
+    border: 2px solid black;
+    font-size: 25px;
+    border-radius: 10px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .msgg{
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    height: 40px;
+    width: 300px;
+    padding: 5px;
+    border: 2px solid black;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-top: 20px;
+    text-align: center;   
+} */
